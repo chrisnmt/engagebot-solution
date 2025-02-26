@@ -31,9 +31,8 @@ export default {
           dark: "#8b7ae3",
         },
         secondary: {
-          DEFAULT: "#E2E8F0",
-          light: "#F1F5F9",
-          dark: "#CBD5E1",
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
         },
         success: {
           DEFAULT: "#10B981",
